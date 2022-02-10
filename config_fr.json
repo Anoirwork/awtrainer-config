@@ -42,6 +42,33 @@
           "title": "Livres",
           "description": "",
           "keepDefaultTitle": false
+        },
+        {
+          "category": "15",
+          "image": null,
+          "colors": ["#333333"],
+          "originalColor": true,
+          "title": "Tous les articles",
+          "description": "",
+          "keepDefaultTitle": false
+        },
+        {
+          "category": "184",
+          "image": null,
+          "colors": ["#333333"],
+          "originalColor": true,
+          "title": "Alimentation",
+          "description": "",
+          "keepDefaultTitle": false
+        },
+        {
+          "category": "94",
+          "image": null,
+          "colors": ["#333333"],
+          "originalColor": true,
+          "title": "Compétitions",
+          "description": "",
+          "keepDefaultTitle": false
         }
       ],
       "line": false,
@@ -79,7 +106,7 @@
       "layout": "simpleList",
       "category": "15",
       "isSnapping": true,
-      
+
       "pos": 400
     },
     { "name": "", "layout": "blog", "pos": 500 }
@@ -195,47 +222,47 @@
     "filter": 0,
     "key": "cndk2it6zg",
     "items": [
-        {
-            "show": true,
-            "type": "home"
-        },
-        {
-            "type": "blog",
-            "show": true
-        },
-        {
-            "show": true,
-            "type": "login"
-        },
-        {
-            "type": "category",
-            "show": false
-        },
-        {
-            "type": "categories",
-            "show": true
-        },
-        {
-            "type": "cart",
-            "show": false
-        },
-        {
-            "type": "profile",
-            "show": true
-        },
-        {
-            "type": "web",
-            "show": false
-        }
+      {
+        "show": true,
+        "type": "home"
+      },
+      {
+        "type": "blog",
+        "show": true
+      },
+      {
+        "show": true,
+        "type": "login"
+      },
+      {
+        "type": "category",
+        "show": false
+      },
+      {
+        "type": "categories",
+        "show": true
+      },
+      {
+        "type": "cart",
+        "show": false
+      },
+      {
+        "type": "profile",
+        "show": true
+      },
+      {
+        "type": "web",
+        "show": false
+      }
     ],
     "logo": "https://i.imgur.com/3jhUNfz.png",
     "logoConfig": {
-        "height": 38,
-        "marginTop": 60,
-        "marginLeft": 5,
-        "marginBottom": 10,
-        "marginRight": 0,
-        "boxFit": "cover"
+      "height": 38,
+      "marginTop": 60,
+      "marginLeft": 5,
+      "marginBottom": 10,
+      "marginRight": 0,
+      "boxFit": "cover"
     }
-}
+  }
 }
