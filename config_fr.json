@@ -1,0 +1,241 @@
+{
+  "HorizonLayout": [
+    {
+      "showSearch": true,
+      "showMenu": true,
+      "image": "https://i.imgur.com/WHPAIsm.png",
+      "layout": "logo",
+      "showLogo": true,
+      "menuIcon": { "name": "blur_on", "fontFamily": "MaterialIcons" },
+      "pos": 100
+    },
+    {
+      "layout": "category",
+      "type": "text",
+      "wrap": false,
+      "size": 1.2,
+      "radius": 20.0,
+      "items": [
+        {
+          "title": "Vêtements",
+          "image": "https://i.imgur.com/TYJu7zZ.png",
+          "description": "",
+          "keepDefaultTitle": true,
+          "originalColor": true,
+          "colors": ["#333333"],
+          "category": "89"
+        },
+        {
+          "category": "92",
+          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x54/93b296bf55ec19d22778158bf06d2dbc/ic_shorts.png",
+          "colors": ["#53A2CC", "#53A2CC"],
+          "originalColor": false,
+          "title": "Accessoires de musculation",
+          "description": "",
+          "keepDefaultTitle": true
+        },
+        {
+          "category": "93",
+          "image": null,
+          "colors": ["#333333"],
+          "originalColor": true,
+          "title": "Livres",
+          "description": "",
+          "keepDefaultTitle": false
+        }
+      ],
+      "line": false,
+      "marginLeft": 3.0,
+      "marginRight": 3.0,
+      "marginTop": 21.0,
+      "marginBottom": 10.0,
+      "paddingX": 5.0,
+      "paddingY": 14.0,
+      "marginX": 0.0,
+      "marginY": 0.0,
+      "hideTitle": false,
+      "pos": 200
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": false,
+      "marginTop": 20.0,
+      "marginBottom": 0.0,
+      "marginLeft": 0.0,
+      "marginRight": 0.0,
+      "height": 0.2,
+      "fit": "cover",
+      "items": [
+        {
+          "category": "15",
+          "padding": 10.0,
+          "image": "https://raw.githubusercontent.com/cadbusiness/app/main/accueil.png"
+        }
+      ],
+      "pos": 300
+    },
+    {
+      "name": "Meilleures ventes",
+      "layout": "simpleList",
+      "category": "15",
+      "isSnapping": true,
+      
+      "pos": 400
+    },
+    { "name": "", "layout": "blog", "pos": 500 }
+  ],
+  "Setting": {
+    "StickyHeader": true,
+    "FontHeader": "Open Sans",
+    "FontFamily": "Open Sans",
+    "MainColor": "ffff9800",
+    "ProductListLayout": "list",
+    "TabBarConfig": {
+      "isSafeArea": true,
+      "color": "ffffffff",
+      "colorCart": "ffff9800",
+      "colorIcon": "ff7a7b7f",
+      "colorActiveIcon": "ffff9800",
+      "iconSize": 22.968195913186673,
+      "indicatorStyle": null,
+      "showFloatingClip": false,
+      "showFloating": false,
+      "radiusTopLeft": 0.0,
+      "radiusTopRight": 0.0,
+      "radiusBottomLeft": 0.0,
+      "radiusBottomRight": 0.0,
+      "paddingLeft": 0.0,
+      "paddingRight": 0.0,
+      "paddingBottom": 0.0,
+      "paddingTop": 0.0,
+      "marginTop": 0.0,
+      "marginBottom": 0.0,
+      "marginLeft": 0.0,
+      "marginRight": 0.0,
+      "TabBarIndicator": {
+        "height": null,
+        "tabPosition": "bottom",
+        "topRightRadius": null,
+        "topLeftRadius": null,
+        "bottomRightRadius": null,
+        "bottomLeftRadius": null,
+        "color": null,
+        "horizontalPadding": null,
+        "verticalPadding": null,
+        "strokeWidth": null,
+        "radius": null,
+        "distanceFromCenter": null,
+        "paintingStyle": "fill"
+      },
+      "TabBarFloating": {
+        "position": 2,
+        "radius": null,
+        "color": "ffff672d",
+        "location": "centerDocked",
+        "width": null,
+        "height": null,
+        "elevation": null,
+        "floatingType": "rectangle"
+      }
+    },
+    "ProductDetail": "simpleType"
+  },
+  "TabBar": [
+    {
+      "label": null,
+      "layout": "home",
+      "pos": 100,
+      "fontFamily": "CupertinoIcons",
+      "icon": "home"
+    },
+    {
+      "layout": "category",
+      "icon": "rectangle_grid_1x2",
+      "fontFamily": "CupertinoIcons",
+      "label": null,
+      "pos": 200,
+      "categoryLayout": "card",
+      "categories": ["15", "92", "184", "94", "89", "93"],
+      "images": null
+    },
+    {
+      "pos": 300,
+      "size": 24,
+      "layout": "search",
+      "fontFamily": "CupertinoIcons",
+      "icon": "search"
+    },
+    {
+      "pos": 400,
+      "layout": "cart",
+      "categoryLayout": "cart",
+      "fontFamily": "CupertinoIcons",
+      "icon": "bag"
+    },
+    {
+      "layout": "profile",
+      "icon": "person",
+      "fontFamily": "CupertinoIcons",
+      "label": null,
+      "pos": 500,
+      "settings": [
+        "notifications",
+        "language",
+        "darkTheme",
+        "order",
+        "point",
+        "rating",
+        "privacy"
+      ],
+      "background": "https://i.imgur.com/vIgn3Om.jpeg"
+    }
+  ],
+  "Drawer": {
+    "subDrawerItem": {},
+    "filter": 0,
+    "key": "cndk2it6zg",
+    "items": [
+        {
+            "show": true,
+            "type": "home"
+        },
+        {
+            "type": "blog",
+            "show": true
+        },
+        {
+            "show": true,
+            "type": "login"
+        },
+        {
+            "type": "category",
+            "show": false
+        },
+        {
+            "type": "categories",
+            "show": true
+        },
+        {
+            "type": "cart",
+            "show": false
+        },
+        {
+            "type": "profile",
+            "show": true
+        },
+        {
+            "type": "web",
+            "show": false
+        }
+    ],
+    "logo": "https://i.imgur.com/3jhUNfz.png",
+    "logoConfig": {
+        "height": 38,
+        "marginTop": 60,
+        "marginLeft": 5,
+        "marginBottom": 10,
+        "marginRight": 0,
+        "boxFit": "cover"
+    }
+}
+}
